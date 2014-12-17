@@ -10,7 +10,7 @@ that a chain of a-friend-of-a-friend statements can be made to connect any two p
 six steps.” This assumption strongly encourages Andy. He thinks if he were introduced to the friend of his
 friend, he eventually would meet his true love, Alice. The question is how to build the link from Andy to
 Alice.
-Now Andy needs your help. You know the social network around Andy as Fig. 1, and your job is planning
+Now Andy needs your help. You know the social  network around Andy as Fig. 1, and your job is planning
 the path for Andy to meet Alice. In Fig. 1, each node is a person, each link is the friendship, and the
 number of the link means the distance of their relationship. For example, Andy feels closer to Calvin(2)
 than Beck(10).
@@ -24,7 +24,7 @@ know this person faster. For example, to reach Claire, the time cost of Andy-Bec
 but the one of Andy-David-Claire is 55, so Andy prefers to know Claire by Beck.
 Programming Task
 You will need to write a program to implement the following search algorithms, to help Andy find
-optimal traversal link(s) to reach Alice.
+optimal traversal link(s) to reach Alice. 
 (1) Breadth-first search (30% of test cases)
 (2) Depth-first search (30% of test cases)
 (3) Uniform-cost search using the distance of their relationship as cost (40% of test cases)
